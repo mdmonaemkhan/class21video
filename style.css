@@ -1,0 +1,67 @@
+.container-fluid img{
+    height: auto;
+    width: 80px;
+    transform: rotate(-30deg);
+    
+}
+
+.carousel-caption{
+    margin-bottom: 15%;
+
+}
+
+.carousel-item img{
+    height:850px;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    font-style: italic;
+    color: bisque;    
+}
+.carousel-caption p{
+    font-size: 25px;
+    font-style: italic;
+    color: darkturquoise;
+}
+.section-2 img {
+    transition: .7s;
+}
+.section-2 img:hover{
+    transform: rotateY(360deg);
+    transition: .7s;
+}
+.section-2:hover img{
+    background: rgb(180, 68, 68);
+    transition: .7s;
+}
+
+
+.btn{
+    margin-left: 25%;
+    padding: 5px 20px;
+}
+.card:hover{
+    background: #e8e6e4;
+    transition: .7s;
+}
+.card:hover img{
+    transform: rotateY(360deg);
+    transition: .7s;
+}
+.btn:hover{
+    background: black;
+    color: white;
+    transition: .7s;
+}
+.card:hover a{
+    background: white;
+    color: wheat;
+}
+.card a:hover{
+    background:black;
+    color: white;
+    border-bottom: none;
+    transform: translateY(10px);
+    transition: .7s;
+}
+
